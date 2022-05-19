@@ -1,0 +1,11 @@
+a {
+    width: 150px;
+    height: 150px;
+    display: inline-block; /* Será do tipo block e inline, tem um comportamento block, mas anula o espaço do lado, podendo ter coisas do lado. */
+}
+
+ul li {
+    display: inline;
+    background-color: gray;
+    padding: 20px;
+}

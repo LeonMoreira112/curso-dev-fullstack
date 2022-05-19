@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    overflow: scroll; /* Conteúdo maior que a div, saiu para fora da caixa (overflor) */
+    overflow-x: hidden; /* Esconder a barra x de rolagem */
+   /* overflow: auto; Caucula automaticamente se precisa de uma barra de rolagem x ou y */
+}

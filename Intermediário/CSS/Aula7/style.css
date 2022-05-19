@@ -1,0 +1,26 @@
+/* Pseudo elementos "::" : Alterar uma parte especifica */
+
+::selection { /* mudar quando a gente selecionar algo com o mouse */
+    color: pink;
+    background: black;
+} /* Se limita a essas únicas duas propiedades */
+
+
+p::first-line { /* Primeira linha */
+    color: blue;
+}
+
+p::first-letter { /* Primeira letra */
+    color: red;
+    font-size: 50px;
+}
+
+h1::before { /* Colocar algo antes */
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: ""; /* É obrigatório dentro do before */
+    margin-right: 10px;
+}

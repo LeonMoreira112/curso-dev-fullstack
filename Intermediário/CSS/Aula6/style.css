@@ -1,0 +1,45 @@
+a {
+    color: red;
+}
+
+a:hover { /* PseudoClasse hover: Quando passar o mouse em cima isso acontece: */
+    color: green;
+    font-weight: bold;
+}
+
+a:hover + .caixa {
+    visibility: visible;
+}
+
+a:visited {  /* PseudoClasse de âncora: Quando eu já visitei o site isso acontece: */
+    color: yellow;
+}
+
+a:active { /* PseudoClasse de âncora: Quando o link estiver ativado (pressionado) isso acontece: */
+    color: pink;
+}
+
+.caixa {
+    visibility: hidden;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.caixa:hover {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+ul li:first-child { /* Primeiro filho */
+    color: red;
+}
+
+ul li:last-child { /* Último filho */
+    color: blue;
+}
+
+.exemplo p:nth-child(5){ /*seletor do filho, nesse caso o 5º */
+    color: orange;
+}

@@ -1,0 +1,14 @@
+a {
+    width: 150px;
+    height: 150px;
+    display: inline-block; /* Será do tipo block e inline, tem um comportamento block, mas anula o espaço do lado, podendo ter coisas do lado. */
+}
+
+ul li {
+    display: inline;
+    background-color: gray;
+    padding: 20px;
+    /* display: none; Faz ela e a área que ela ocupava não aparecer mais na tela */
+    /* visibility: hidden; Esconde ela da tela, mas o lugar que ela ocupava permanece */
+    /* opacity: 0 a 1; Meche na opacidade desse elemento, os valores vão de 0 a 1 */
+}

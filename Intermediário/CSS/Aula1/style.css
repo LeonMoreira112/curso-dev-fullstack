@@ -1,0 +1,31 @@
+
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo1 p.red {  /* Aplicar somente no parágrafo do exemplo1 com a classe red */
+    color: red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {   /* Aplicar a mesma regra para varias tags e classes */
+    color: blue;
+}
+
+.exemplo2 > p {  /* Seletor ">" indica que a regra será aplicada apenas nos filhos diretos */
+    color: blue;
+}
+
+.exemplo3 + p {  /* Seletor "+" pega o primeiro elemento que foi irmão do que nós selecionamos. Primeiro irmao do exemplo3 */
+    color: red;
+}
+
+.exemplo4 ~ p { /* Seletor "~" pega todos os irmãos diretos */
+    color: green;
+}
+

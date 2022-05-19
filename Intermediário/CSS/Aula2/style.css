@@ -1,0 +1,22 @@
+
+h1 {
+    text-shadow: 2px 2px 20px red; /* Sombra para o texto */
+}
+
+p{
+    font-size: 30px;
+    color: green;
+    text-align: justify; /* Posição do texto */
+    font-weight: bold; /* Espessura do texto, negrito nesse caso */
+    font-style: italic; /* Estilo do teto, italico nesse caso */
+    font-variant: small-caps; /* variação da fonte */
+    text-transform: uppercase; /* Maiúsculo, minúsculo, etc... */
+    text-indent: 50px; /* Espaço no começo do texto */
+    word-spacing: 20px; /* Espaço entre as palavras */
+    line-height: 50px; /* Altura de uma linha para outra */
+}
+
+a {
+    text-decoration: none; /* Tirar ou mudar de lugar o subilinhado do link */
+    letter-spacing: 20px; /* Espaço entre as letras */
+}
