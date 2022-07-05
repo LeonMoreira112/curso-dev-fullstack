@@ -1,0 +1,17 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transition-duration: 500ms;
+}
+
+.box:hover {
+    background-color: red;
+    transform: rotate(360deg) scale(2, 3)
+    /* Essa é a estrutura, passar duas opções de transform ou mais para a mesma tag */
+    /* Há varios tipos de trasform para serem testados */
+}

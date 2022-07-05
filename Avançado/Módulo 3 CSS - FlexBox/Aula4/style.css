@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    height: 600px;
+    background-color: silver;
+}
+
+.caixa {
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    align-self: center;
+    order: 3; /* Muda a ordem; A ordem natural de todos é 0 */
+    background-color: red;
+}
+
+.blue {
+    flex-grow: 2; 
+    /* Crescimento: Esse item vai crescer 2 vezes mais que os outros */
+    align-self: flex-end;
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    align-self: center;
+    background-color: green;
+}
+
+/* align-self : Alinhamento somente daquele item */

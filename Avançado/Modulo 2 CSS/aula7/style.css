@@ -1,0 +1,34 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+
+    animation-name: minhaAnimacao; /* mesmo nome do keyframe */
+    animation-duration: 1000ms; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repetição */
+    animation-delay: 500ms; /* atraso para começar a animação */
+    animation-timing-function: ease-in; /* velocidade da animação em diferentes partes */
+    animation-direction: alternate; /* direção da animação */
+    
+}
+
+@keyframes minhaAnimacao {
+    0% {
+        background-color: black;
+    }
+    50% {
+        border: 20px solid green;
+    }
+    100% {
+        border: 0 solid green;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+
+    /* início: 0% - meio: 50% - fim: 100% */
+
+}

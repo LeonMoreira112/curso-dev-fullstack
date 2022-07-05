@@ -1,0 +1,27 @@
+:root {
+    --color-primary: rgb(0, 124, 37);
+    --color-secondary: rgb(0, 255, 76);
+    --spacing: 16px
+}
+
+h1 {
+    color: var(--color-primary)
+}
+
+h2 {
+    color: var(--color-secondary);
+    margin: var(--spacing) 
+}
+
+p {
+    color: var(--color-primary)
+}
+
+button {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* Essa propriedade de variável serve para facilitar alteração de cores de um layout */
+
+/* Ou para trabalhar um um style guide, guia de estilos que vai se repetir por todo o site */

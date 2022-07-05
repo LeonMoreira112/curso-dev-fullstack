@@ -1,0 +1,29 @@
+:root {
+    font-size: 50px;
+}
+
+body {
+    font-size: 12px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.box2 {
+    width: 100vw; /* 100% da altura do view port width */
+    height: 100vh; /* 100% da altura do view port height */
+    background-color: red;
+}
+
+p {
+    font-size: 2em; 
+    /* Unidade "em" é relativa ao elemento pai (body), nesse caso 2 vezes a font do body (2 * 12px) */
+}
+
+h1 {
+    font-size: 2rem;
+    /* Unidade "rem" é relativa ao root, nesse caso 2 vezes a font do root (2 * 50px) */
+}

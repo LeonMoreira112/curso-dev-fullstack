@@ -1,0 +1,4 @@
+@import "variaveis.css";
+@import "comum.css";
+
+/* @import é usado para organizar quando temos muitas pastas de css. Importamos num único css para colocar no index.html */

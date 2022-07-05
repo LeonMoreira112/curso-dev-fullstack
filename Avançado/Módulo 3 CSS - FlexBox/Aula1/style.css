@@ -1,0 +1,34 @@
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    /* Direção do flex: row: lado a lado // column: coluna */
+    flex-wrap: wrap; 
+    /* Quando não couber na tela, quebrar para a linha de baixo ou de cima */
+
+
+    /* flex-flow: row wrap; shortcode */
+    
+    background-color: silver;
+}
+
+.caixa {
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

@@ -1,0 +1,5 @@
+img {
+    filter: drop-shadow(10px 10px blue);
+}
+
+/* Tipos de filtros, podem ser explorados no w3schools e aplicados em qualquer lugar do site */
